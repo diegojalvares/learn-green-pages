@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { GitHub, Mail, ExternalLink } from 'lucide-react';
+import { Github, Mail, ExternalLink } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4 mt-4">
               <a href="#" className="text-gray-300 hover:text-appGreen transition-colors">
-                <GitHub size={20} />
+                <Github size={20} />
               </a>
               <a href="#" className="text-gray-300 hover:text-appGreen transition-colors">
                 <Mail size={20} />
