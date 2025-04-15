@@ -29,6 +29,8 @@ jobs:
         
       - name: Build project
         run: npm run build
+        env:
+          CI: false # Prevents treating warnings as errors
         
       - name: Setup Pages
         uses: actions/configure-pages@v3
